@@ -1,34 +1,71 @@
 .hero {
-    width: 100%;
-  min-height: 500px;
+  background-color: #1abc9c;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.hero-line {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 40px 20px;
-background-color: aqua;
-gap: 50px;
-flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
 }
 
-.hero-content 
- {
- text-align: center;
+.hero-line span {
+  width: 80px;
+  height: 4px;
+  background-color: white;
+  border-radius: 5px;
 }
 
-.hero h1{
-
-    color: white;
-    font-weight: 700;
-    font-size: 40px;
-}
-.hero p{
-    color: white;
-    font-size: 40px;
-         font-weight: 700;
+.hero-line button {
+  color: white;
 }
 
-.hero img{
-    width: 150px;
-    
+.hero-line svg {
+  font-size: 35px;
+}
+
+.hero p {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* الموبايل */
+@media (max-width: 768px) {
+  .hero img {
+    width: 180px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .hero-line span {
+    width: 50px;
+  }
 }

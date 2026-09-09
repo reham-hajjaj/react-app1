@@ -1,0 +1,62 @@
+.Portfolio {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.Portfolio h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* الخط */
+.Portfolio-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.Portfolio-line span {
+  width: 100px;
+  height: 4px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* 3 صور في الصف */
+.Portfolio-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* الكارد */
+.Portfolio-card {
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* الصور */
+.Portfolio-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+
+
+/* الموبايل */
+@media (max-width: 768px) {
+  .Portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+} 
+ 
+
