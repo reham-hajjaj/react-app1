@@ -1,9 +1,46 @@
+import "./contact.css"
+import StarIcon from '@mui/icons-material/Star';
+import DownloadIcon from '@mui/icons-material/Download';
 function Contact(){
-    return<section>
-       <h1>Contact</h1>
-    </section>
-  
+    return (
+ <section>
+       <h1>Contact me</h1>
+       <div className="divider">
+         <span></span>
+       
+         <StarIcon/>
+         <span></span>
+           </div>
+         <form className="contact-form">
 
-    
+          <input
+            type="text"
+            placeholder="Full name"
+          />
+
+          <input
+            type="email"
+            placeholder="Email address"
+          />
+
+          <input
+            type="tel"
+            placeholder="Phone number"
+          />
+
+          <textarea
+            placeholder="Message"
+          ></textarea>
+
+          <button type="submit">
+            Send
+          </button>
+
+        </form>
+
+
+     
+    </section>
+    )  
 }
 export default Contact;

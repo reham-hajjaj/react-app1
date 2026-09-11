@@ -17,25 +17,34 @@
   margin: 0 0 25px;
 }
 
-/* الخطوط والنجمة */
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+width: 100%;
+}
+
 .divider {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 45px;
+  margin: 25px 0 45px;
 }
 
 .divider span {
-  width: 145px;
-  height: 4px;
+  display: block;
+  width: 100px;
+  height: 3px;
   background-color: white;
-  border-radius: 5px;
 }
 
-.divider i {
+.divider .star {
+  color: white;
   font-size: 30px;
-  font-style: normal;
+  flex-shrink: 0;
 }
 
 /* النص */
@@ -67,6 +76,4 @@
   font-size: 18px;
   transition: 0.3s;
 }
-.download-btn i {
-  margin-right: 8px;
-}
+

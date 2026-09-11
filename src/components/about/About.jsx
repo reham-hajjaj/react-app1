@@ -8,14 +8,14 @@ function About() {
     <section class="about">
         <div class="container">
 <h2>About</h2>
-<div class="icon">
-    <span>
-    </span>
-<IconButton>
-    <StarIcon/>
-</IconButton>
+<div className="divider">
+  <span></span>
 
+  <StarIcon className="star" />
+
+  <span></span>
 </div>
+
 <div class="about-content">
 <div class="about-text">
 <p>Freelancer is a free bootstrap theme 
