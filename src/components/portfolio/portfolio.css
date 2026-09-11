@@ -8,6 +8,8 @@
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 15px;
+      font-family: var(--bs-body-font-family)
+;
 }
 
 /* الخط */

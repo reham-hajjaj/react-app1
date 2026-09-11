@@ -1,0 +1,72 @@
+.about {
+  background-color: #18bc9c;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.about h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 0 25px;
+}
+
+/* الخطوط والنجمة */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+
+.divider span {
+  width: 145px;
+  height: 4px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.divider i {
+  font-size: 30px;
+  font-style: normal;
+}
+
+/* النص */
+.about-content {
+  display: flex;
+  gap: 50px;
+  text-align: left;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* زر التحميل */
+.download-btn {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 16px 25px;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.download-btn i {
+  margin-right: 8px;
+}
