@@ -7,12 +7,12 @@ function Hero(){
     return<section className='hero'>
         <img src={image} alt="image" />
         <h1>Start Bootstrap</h1>
-         <div className="hero-line">
-           
-        <IconButton>
-<StarIcon/>
-        </IconButton>
-      </div>
+          <div className="divider">
+         <span></span>
+       
+         <StarIcon/>
+         <span></span>
+           </div>
        <p>Graphic Artist - Web Designer - Illustrator</p>
     </section>
 }

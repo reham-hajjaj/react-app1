@@ -3,6 +3,7 @@
   
  .contact {
     text-align: center;
+    
 }
 
 .contact h2 {
@@ -10,9 +11,9 @@
 }
 
 .contact form {
-    width: 60%;
+    
     max-width: 600px;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 
 .contact form input,
@@ -25,7 +26,9 @@
 .contact button {
     display: block;
     margin: 20px auto;
+     
 }
+
 
 .divider {
   display: flex;
@@ -66,6 +69,7 @@
   font-family: "Lato", sans-serif;
   font-size: 18px;
 }
+
 
 .contact-form textarea {
   height: 140px;
