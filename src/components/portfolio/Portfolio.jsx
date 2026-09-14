@@ -13,9 +13,11 @@ export default function Portfolio() {
       <h2>PORTFOLIO</h2>
 
       <div className="Portfolio-line">
+        <span></span>
         <iconButton>
-<StarIcon/>
+<StarIcon className="star"/>
         </iconButton>
+         <span></span>
       </div>
 
       <div className="Portfolio-grid">

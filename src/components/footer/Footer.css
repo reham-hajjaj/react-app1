@@ -5,11 +5,16 @@
     #17213a
   );
 
+  margin-top: 100px;
+  margin-bottom: 60px;
+
+  padding-top: 80px;
+  padding-bottom: 0;
+
   color: white;
   text-align: center;
 }
 
-/* مساحة الفوتر وتوزيع الأعمدة */
 .footer-container {
   min-height: 380px;
 
@@ -26,7 +31,6 @@
   gap: 70px;
 }
 
-
 .footer-box {
   width: 33.333%;
 
@@ -35,19 +39,16 @@
   align-items: center;
 }
 
-
 .footer-title {
   font-size: 24px !important;
   font-weight: 700 !important;
   margin-bottom: 25px !important;
 }
 
-
 .footer-text {
   font-size: 17px !important;
   line-height: 1.7 !important;
 }
-
 
 .social-icons {
   display: flex;
@@ -69,9 +70,12 @@
   text-decoration: underline;
 }
 
+
 .copyright {
   background-color: #111827;
+  margin-top: 80px;
   padding: 30px 0;
+  text-align: center;
 }
 
 .copyright p {

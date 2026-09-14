@@ -1,11 +1,11 @@
 import "./contact.css"
 import StarIcon from '@mui/icons-material/Star';
-import DownloadIcon from '@mui/icons-material/Download';
+
 function Contact(){
     return (
- <section>
+ <section className="contact-title ">
        <h1>Contact me</h1>
-       <div className="divider">
+       <div className="contact-divider">
          <span></span>
        
          <StarIcon/>

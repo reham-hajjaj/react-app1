@@ -10,7 +10,7 @@ function Hero(){
           <div className="divider">
          <span></span>
        
-         <StarIcon/>
+         <StarIcon className='star'/>
          <span></span>
            </div>
        <p>Graphic Artist - Web Designer - Illustrator</p>
